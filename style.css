@@ -225,10 +225,9 @@ nav.navigation .navbar-brand>span:last-child {
 }
 
 .jumbotron .container-fluid h1 {
-	font-size: 60px;
+	font-size: 48px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-weight: 700;
-	line-height: 1;
+	font-weight: 600;
 }
 
 .jumbotron .container-fluid h1 span {
@@ -602,7 +601,7 @@ nav.navigation .navbar-brand>span:last-child {
 		text-align: center;
 	}
 	.jumbotron .container-fluid h1 {
-		font-size: 2rem;
+		font-size: 40px;
 		word-break: keep-all;
 	}
 	.jumbotron .container-fluid p {
