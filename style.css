@@ -281,6 +281,12 @@ nav.navigation .navbar-brand>span:last-child {
 	animation-direction: alternate;
 }
 
+.form-control:focus{
+	outline: none;
+	box-shadow: none;
+	border-color: var(--primary);
+}
+
 .odd_evven_content_sec .container .row .col-12 h1 {
 	color: #0d084d;
 	padding: 0 0 16px;
@@ -766,4 +772,15 @@ nav.navigation .navbar-brand>span:last-child {
 		padding: 0 35px 0 0;
 		overflow-y: scroll;
 	}
+}
+
+button.btn-close:focus{
+	outline: none;
+	box-shadow: none;
+	border-color: #fff;
+}
+
+/* loginFromModal */
+.loginFromModal{
+	color: #21262A;
 }

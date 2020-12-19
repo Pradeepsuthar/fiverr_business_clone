@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="OwlCarousel2/css/owl.carousel.min.css">
     <link rel="stylesheet" href="OwlCarousel2/css/owl.theme.default.min.css">
 </head>
+
 <body>
 
     <!-- As a link -->
@@ -71,10 +72,11 @@
                                 placeholder="Enter your Place of birth">
                         </div>
                         <div class="col-12">
-                            <a href="vibe-results.html" class="btn btn-primary">Submit</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#loginFrom"
+                                class="btn btn-primary">Submit</a>
                         </div>
                     </form>
-                    <hr>
+                    <!-- <hr>
                     <h5 class="mb-3 text-center">Login with</h5>
                     <div class="text-center">
                         <a href="#" class="my-auto text-decoration-none">
@@ -86,6 +88,51 @@
                             <img src="https://icons-for-free.com/iconfiles/png/512/phone+send+sms+icon-1320191835303044284.png"
                                 width="50px" alt="">
                         </a>
+                    </div> -->
+
+                    <!-- Login form Modal -->
+                    <div class="modal fade" id="loginFrom" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="loginFromLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content loginFromModal">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="loginFromLabel">Login</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+
+
+                                    <form>
+                                        <div class="mb-3 row">
+                                            <label for="mobileNumber" class="col-12 col-form-label">Enter Mobile
+                                                Number</label>
+                                            <div class="col-12">
+                                                <input type="password" class="form-control" id="mobileNumber"
+                                                    placeholder="+91-9876543210">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <input type="submit" value="Send OTP" class="btn btn-primary w-100">
+                                        </div>
+                                    </form>
+
+                                    <hr>
+                                    <h5 class="mb-3 text-center">Login with</h5>
+                                    <div class="text-center">
+                                        <a href="#" class="my-auto text-decoration-none">
+                                            <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png"
+                                                width="45px" alt="">
+                                        </a>
+                                        <span class="mx-3 my-auto">or</span>
+                                        <a href="#" class="my-auto text-decoration-none">
+                                            <img src="https://icons-for-free.com/iconfiles/png/512/phone+send+sms+icon-1320191835303044284.png"
+                                                width="50px" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -100,19 +147,24 @@
     </section>
 
     <section class="app_store_container">
-        <div class="container">
-            <div class="app-icon my-auto">
-                <p><b>Invite your friends to get priority access</b></p>
-                <img src="icon-AppStore_lg30tv.png" alt="">
-                <img src="icon-GooglePlay_1_zixjxl.png" alt="">
-            </div>
-            <div class="content my-auto mt-5 mt-lg-0">
-                <p><a href="#">Send Download Link</a></p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-4 my-auto mb-4 text-center text-md-left mb-md-0">
+                    <div class="app-icon">
 
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Enter your email address"
-                        aria-label="Enter your email address" aria-describedby="send-link">
-                    <button class="btn btn-primary" type="button" id="send-link">Send Me</button>
+                        <img src="icon-AppStore_lg30tv.png" alt="">
+                        <img src="icon-GooglePlay_1_zixjxl.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 my-auto mb-4 text-center text-md-left mb-md-0">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Enter your email address"
+                            aria-label="Enter your email address" aria-describedby="send-link">
+                        <button class="btn btn-primary" type="button" id="send-link">Send Me</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 content my-auto mb-4 text-center text-md-left mb-md-0">
+                    <p><b>Invite your friends to get priority access</b></p>
                 </div>
             </div>
         </div>
