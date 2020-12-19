@@ -608,6 +608,10 @@ nav.navigation .navbar-brand>span:last-child {
 /* Large devices (desktops, 992px and up) */
 
 @media (max-width: 992px) {
+	.app-icon{
+		display: flex;
+		justify-content: center;
+	}
 	nav.navigation {
 		text-align: center;
 	}
@@ -628,11 +632,11 @@ nav.navigation .navbar-brand>span:last-child {
 		font-size: 1.2rem;
 		word-break: break-all;
 	}
-	.jumbotron .container-fluid .btn_grp {
+	.jumbotron .container .btn_grp {
 		display: grid;
 		padding: 2px;
 	}
-	.jumbotron .container-fluid .btn_grp a {
+	.jumbotron .container .btn_grp a {
 		margin-bottom: 20px;
 	}
 	.catlogs_sec div {
