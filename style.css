@@ -611,6 +611,7 @@ nav.navigation .navbar-brand>span:last-child {
 	.app-icon{
 		display: flex;
 		justify-content: center;
+		align-items: center;
 	}
 	nav.navigation {
 		text-align: center;
