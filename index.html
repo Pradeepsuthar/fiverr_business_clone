@@ -487,42 +487,42 @@
                             </div>
                         </div>
                         <div class="slide_card">
-                           <div class="slide_card_content">
-                            <h5>Brainport for you</h5>
-                            <p>Whether you are studying, working or having a company here, Brainport Eindhoven
-                                offers limitless opportunities for growth.</p>
-                           </div>
+                            <div class="slide_card_content">
+                                <h5>Brainport for you</h5>
+                                <p>Whether you are studying, working or having a company here, Brainport Eindhoven
+                                    offers limitless opportunities for growth.</p>
+                            </div>
                             <img src="https://cdn.pixabay.com/photo/2020/07/17/06/41/feline-5413170_960_720.jpg"
                                 class="img-fluid" alt="">
                         </div>
                         <div class="slide_card">
-                           <div class="slide_card_content">
-                            <h5>Brainport for you</h5>
-                            <p>Whether you are studying, working or having a company here, Brainport Eindhoven
-                                offers limitless opportunities for growth.</p>
-                           </div>
+                            <div class="slide_card_content">
+                                <h5>Brainport for you</h5>
+                                <p>Whether you are studying, working or having a company here, Brainport Eindhoven
+                                    offers limitless opportunities for growth.</p>
+                            </div>
                             <img src="https://cdn.pixabay.com/photo/2020/07/17/06/41/feline-5413170_960_720.jpg"
                                 class="img-fluid" alt="">
                         </div>
                         <div class="slide_card">
-                           <div class="slide_card_content">
-                            <h5>Brainport for you</h5>
-                            <p>Whether you are studying, working or having a company here, Brainport Eindhoven
-                                offers limitless opportunities for growth.</p>
-                           </div>
+                            <div class="slide_card_content">
+                                <h5>Brainport for you</h5>
+                                <p>Whether you are studying, working or having a company here, Brainport Eindhoven
+                                    offers limitless opportunities for growth.</p>
+                            </div>
                             <img src="https://cdn.pixabay.com/photo/2020/07/17/06/41/feline-5413170_960_720.jpg"
                                 class="img-fluid" alt="">
                         </div>
                         <div class="slide_card">
-                           <div class="slide_card_content">
-                            <h5>Brainport for you</h5>
-                            <p>Whether you are studying, working or having a company here, Brainport Eindhoven
-                                offers limitless opportunities for growth.</p>
-                           </div>
+                            <div class="slide_card_content">
+                                <h5>Brainport for you</h5>
+                                <p>Whether you are studying, working or having a company here, Brainport Eindhoven
+                                    offers limitless opportunities for growth.</p>
+                            </div>
                             <img src="https://cdn.pixabay.com/photo/2020/07/17/06/41/feline-5413170_960_720.jpg"
                                 class="img-fluid" alt="">
                         </div>
-                       
+
                     </div>
                 </div>
             </div>
@@ -579,11 +579,10 @@
     <script src="OwlCarousel2/js/jquery.min.js"></script>
     <script src="OwlCarousel2/js/owl.carousel.min.js"></script>
     <script>
-        var owl = $('.owl-carousel');
-        owl.owlCarousel({
-            loop: false,
-            nav: true,
+        $('.owl-carousel').owlCarousel({
+            loop: true,
             margin: 10,
+            nav: true,
             responsive: {
                 0: {
                     items: 1.2
@@ -595,15 +594,8 @@
                     items: 3
                 }
             }
-        });
-        owl.on('mousewheel', '.owl-stage', function (e) {
-            if (e.deltaY > 0) {
-                owl.trigger('next.owl');
-            } else {
-                owl.trigger('prev.owl');
-            }
-            e.preventDefault();
-        });
+        })
+
     </script>
 </body>
 
